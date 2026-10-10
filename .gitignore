@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+*.log
+.DS_Store
+# your own runs (keep results/ for the published data)
+results-*/
+# a Claude Code config dir holding a login must never be committed
+*claude-config*/

@@ -1,0 +1,2657 @@
+{
+  "models": {
+    "claude-haiku-5-5": {
+      "conditions": {
+        "none": {
+          "n": 60,
+          "passed": 34,
+          "pass_rate": 0.5666666666666667,
+          "wilson": [
+            0.44103214654694856,
+            0.6842779960559936
+          ],
+          "mean_score": 0.9578571428571429,
+          "cost_total": 0.29664964,
+          "cost_mean": 0.004944160666666667,
+          "cost_per_pass": 0.008724989411764706,
+          "cli_cost_total": 0.29664964,
+          "wall_median": 19.615000000000002,
+          "wall_p25": 16.9,
+          "wall_p75": 24.8175,
+          "input_tokens_mean": 159491.48333333334,
+          "cache_read_mean": 146796.98333333334,
+          "output_tokens_mean": 3779.516666666667,
+          "turns_mean": 11.166666666666666,
+          "skill_loaded_rate": 0.0,
+          "errors": 0
+        },
+        "compact": {
+          "n": 60,
+          "passed": 57,
+          "pass_rate": 0.95,
+          "wilson": [
+            0.8629926537490016,
+            0.9828508088208587
+          ],
+          "mean_score": 0.9957792207792208,
+          "cost_total": 0.203757355,
+          "cost_mean": 0.0033959559166666666,
+          "cost_per_pass": 0.0035746904385964913,
+          "cli_cost_total": 0.203757355,
+          "wall_median": 11.265,
+          "wall_p25": 9.950000000000001,
+          "wall_p75": 13.0425,
+          "input_tokens_mean": 108283.21666666666,
+          "cache_read_mean": 98520.8,
+          "output_tokens_mean": 2381.45,
+          "turns_mean": 9.666666666666666,
+          "skill_loaded_rate": 1.0,
+          "errors": 0,
+          "right_skill_rate_when_loaded": 1.0
+        },
+        "comprehensive": {
+          "n": 60,
+          "passed": 58,
+          "pass_rate": 0.9666666666666667,
+          "wilson": [
+            0.8863601247107462,
+            0.9908108735098498
+          ],
+          "mean_score": 0.9976190476190476,
+          "cost_total": 0.24684873,
+          "cost_mean": 0.0041141455,
+          "cost_per_pass": 0.004256012586206896,
+          "cli_cost_total": 0.24684873,
+          "wall_median": 12.725,
+          "wall_p25": 11.387500000000001,
+          "wall_p75": 14.9825,
+          "input_tokens_mean": 124012.88333333333,
+          "cache_read_mean": 110478.88333333333,
+          "output_tokens_mean": 2635.766666666667,
+          "turns_mean": 9.95,
+          "skill_loaded_rate": 1.0,
+          "errors": 0,
+          "right_skill_rate_when_loaded": 1.0
+        },
+        "selfgen": {
+          "n": 60,
+          "passed": 22,
+          "pass_rate": 0.36666666666666664,
+          "wilson": [
+            0.2562073884620827,
+            0.4931723263320327
+          ],
+          "mean_score": 0.899549062049062,
+          "cost_total": 0.292257525,
+          "cost_mean": 0.00487095875,
+          "cost_per_pass": 0.013284432954545455,
+          "cli_cost_total": 0.292257525,
+          "wall_median": 17.88,
+          "wall_p25": 16.182499999999997,
+          "wall_p75": 20.8375,
+          "input_tokens_mean": 161464.96666666667,
+          "cache_read_mean": 148412.08333333334,
+          "output_tokens_mean": 3511.2,
+          "turns_mean": 11.45,
+          "skill_loaded_rate": 1.0,
+          "errors": 0,
+          "right_skill_rate_when_loaded": 1.0
+        }
+      },
+      "families": {
+        "migration": {
+          "none": {
+            "n": 30,
+            "passed": 29,
+            "pass_rate": 0.9666666666666667,
+            "wilson": [
+              0.8332924860304112,
+              0.9940915620051425
+            ],
+            "mean_score": 0.9966666666666667,
+            "cost_total": 0.14386447,
+            "cost_mean": 0.004795482333333333,
+            "cost_per_pass": 0.004960843793103448,
+            "cli_cost_total": 0.14386447,
+            "wall_median": 18.345,
+            "wall_p25": 16.185000000000002,
+            "wall_p75": 21.0875,
+            "input_tokens_mean": 162181.73333333334,
+            "cache_read_mean": 149692.73333333334,
+            "output_tokens_mean": 3475.633333333333,
+            "turns_mean": 10.233333333333333,
+            "skill_loaded_rate": 0.0,
+            "errors": 0
+          },
+          "compact": {
+            "n": 30,
+            "passed": 28,
+            "pass_rate": 0.9333333333333333,
+            "wilson": [
+              0.7867618227892791,
+              0.9815233646723066
+            ],
+            "mean_score": 0.9939393939393939,
+            "cost_total": 0.112455155,
+            "cost_mean": 0.0037485051666666666,
+            "cost_per_pass": 0.004016255535714286,
+            "cli_cost_total": 0.112455155,
+            "wall_median": 12.844999999999999,
+            "wall_p25": 11.0625,
+            "wall_p75": 15.7675,
+            "input_tokens_mean": 135120.7,
+            "cache_read_mean": 124957.6,
+            "output_tokens_mean": 2457.766666666667,
+            "turns_mean": 9.8,
+            "skill_loaded_rate": 1.0,
+            "errors": 0
+          },
+          "comprehensive": {
+            "n": 30,
+            "passed": 28,
+            "pass_rate": 0.9333333333333333,
+            "wilson": [
+              0.7867618227892791,
+              0.9815233646723066
+            ],
+            "mean_score": 0.9952380952380953,
+            "cost_total": 0.132917965,
+            "cost_mean": 0.004430598833333334,
+            "cost_per_pass": 0.004747070178571428,
+            "cli_cost_total": 0.132917965,
+            "wall_median": 13.33,
+            "wall_p25": 12.25,
+            "wall_p75": 15.515,
+            "input_tokens_mean": 143168.6,
+            "cache_read_mean": 128693.63333333333,
+            "output_tokens_mean": 2669.2,
+            "turns_mean": 9.466666666666667,
+            "skill_loaded_rate": 1.0,
+            "errors": 0
+          },
+          "selfgen": {
+            "n": 30,
+            "passed": 22,
+            "pass_rate": 0.7333333333333333,
+            "wilson": [
+              0.5555169795568831,
+              0.8581750444608938
+            ],
+            "mean_score": 0.9776695526695527,
+            "cost_total": 0.14139762,
+            "cost_mean": 0.004713254,
+            "cost_per_pass": 0.006427164545454545,
+            "cli_cost_total": 0.14139762,
+            "wall_median": 16.689999999999998,
+            "wall_p25": 15.8675,
+            "wall_p75": 18.697499999999998,
+            "input_tokens_mean": 157342.83333333334,
+            "cache_read_mean": 144410.9,
+            "output_tokens_mean": 3306.0333333333333,
+            "turns_mean": 10.633333333333333,
+            "skill_loaded_rate": 1.0,
+            "errors": 0
+          }
+        },
+        "release": {
+          "none": {
+            "n": 30,
+            "passed": 5,
+            "pass_rate": 0.16666666666666666,
+            "wilson": [
+              0.07336434240351683,
+              0.33564705185680177
+            ],
+            "mean_score": 0.9190476190476191,
+            "cost_total": 0.15278517,
+            "cost_mean": 0.005092839,
+            "cost_per_pass": 0.030557034,
+            "cli_cost_total": 0.15278517,
+            "wall_median": 20.795,
+            "wall_p25": 18.2975,
+            "wall_p75": 26.1825,
+            "input_tokens_mean": 156801.23333333334,
+            "cache_read_mean": 143901.23333333334,
+            "output_tokens_mean": 4083.4,
+            "turns_mean": 12.1,
+            "skill_loaded_rate": 0.0,
+            "errors": 0
+          },
+          "compact": {
+            "n": 30,
+            "passed": 29,
+            "pass_rate": 0.9666666666666667,
+            "wilson": [
+              0.8332924860304112,
+              0.9940915620051425
+            ],
+            "mean_score": 0.9976190476190476,
+            "cost_total": 0.0913022,
+            "cost_mean": 0.0030434066666666666,
+            "cost_per_pass": 0.0031483517241379312,
+            "cli_cost_total": 0.0913022,
+            "wall_median": 10.185,
+            "wall_p25": 9.5375,
+            "wall_p75": 11.662500000000001,
+            "input_tokens_mean": 81445.73333333334,
+            "cache_read_mean": 72084,
+            "output_tokens_mean": 2305.133333333333,
+            "turns_mean": 9.533333333333333,
+            "skill_loaded_rate": 1.0,
+            "errors": 0
+          },
+          "comprehensive": {
+            "n": 30,
+            "passed": 30,
+            "pass_rate": 1.0,
+            "wilson": [
+              0.8864829086095221,
+              1.0
+            ],
+            "mean_score": 1.0,
+            "cost_total": 0.113930765,
+            "cost_mean": 0.0037976921666666667,
+            "cost_per_pass": 0.0037976921666666667,
+            "cli_cost_total": 0.11393076499999999,
+            "wall_median": 12.5,
+            "wall_p25": 11.01,
+            "wall_p75": 14.16,
+            "input_tokens_mean": 104857.16666666667,
+            "cache_read_mean": 92264.13333333333,
+            "output_tokens_mean": 2602.3333333333335,
+            "turns_mean": 10.433333333333334,
+            "skill_loaded_rate": 1.0,
+            "errors": 0
+          },
+          "selfgen": {
+            "n": 30,
+            "passed": 0,
+            "pass_rate": 0.0,
+            "wilson": [
+              0.0,
+              0.113517091390478
+            ],
+            "mean_score": 0.8214285714285714,
+            "cost_total": 0.150859905,
+            "cost_mean": 0.0050286635,
+            "cost_per_pass": null,
+            "cli_cost_total": 0.15085990500000002,
+            "wall_median": 19.34,
+            "wall_p25": 16.9825,
+            "wall_p75": 21.950000000000003,
+            "input_tokens_mean": 165587.1,
+            "cache_read_mean": 152413.26666666666,
+            "output_tokens_mean": 3716.366666666667,
+            "turns_mean": 12.266666666666667,
+            "skill_loaded_rate": 1.0,
+            "errors": 0
+          }
+        }
+      },
+      "paired": {
+        "compact": {
+          "all": {
+            "diff": 0.3833333333333333,
+            "ci": [
+              0.09999999999999999,
+              0.6666666666666666
+            ],
+            "p_perm": 0.0432,
+            "tasks": 12,
+            "tasks_better": 6,
+            "tasks_worse": 1
+          },
+          "migration": {
+            "diff": -0.03333333333333335,
+            "ci": [
+              -0.2,
+              0.09999999999999998
+            ],
+            "p_perm": 1.0,
+            "tasks": 6,
+            "tasks_better": 1,
+            "tasks_worse": 1
+          },
+          "release": {
+            "diff": 0.8,
+            "ci": [
+              0.4666666666666667,
+              1.0
+            ],
+            "p_perm": 0.0601,
+            "tasks": 6,
+            "tasks_better": 5,
+            "tasks_worse": 0
+          },
+          "score_all": {
+            "diff": 0.03792207792207792,
+            "ci": [
+              0.008874458874458868,
+              0.07261904761904762
+            ],
+            "p_perm": 0.0432,
+            "tasks": 12,
+            "tasks_better": 6,
+            "tasks_worse": 1
+          },
+          "cost_all": {
+            "diff": -0.0015482047500000001,
+            "ci": [
+              -0.0019157161812500003,
+              -0.0012059953208333335
+            ],
+            "p_perm": 0.0002,
+            "tasks": 12,
+            "tasks_better": 0,
+            "tasks_worse": 12
+          },
+          "wall_all": {
+            "diff": -10.865666666666668,
+            "ci": [
+              -12.9927,
+              -8.6636375
+            ],
+            "p_perm": 0.0002,
+            "tasks": 12,
+            "tasks_better": 0,
+            "tasks_worse": 12
+          }
+        },
+        "comprehensive": {
+          "all": {
+            "diff": 0.4,
+            "ci": [
+              0.09999999999999999,
+              0.6833333333333333
+            ],
+            "p_perm": 0.0418,
+            "tasks": 12,
+            "tasks_better": 6,
+            "tasks_worse": 1
+          },
+          "migration": {
+            "diff": -0.03333333333333335,
+            "ci": [
+              -0.2,
+              0.09999999999999998
+            ],
+            "p_perm": 1.0,
+            "tasks": 6,
+            "tasks_better": 1,
+            "tasks_worse": 1
+          },
+          "release": {
+            "diff": 0.8333333333333334,
+            "ci": [
+              0.5,
+              1.0
+            ],
+            "p_perm": 0.0601,
+            "tasks": 6,
+            "tasks_better": 5,
+            "tasks_worse": 0
+          },
+          "score_all": {
+            "diff": 0.039761904761904755,
+            "ci": [
+              0.010476190476190472,
+              0.075
+            ],
+            "p_perm": 0.0418,
+            "tasks": 12,
+            "tasks_better": 6,
+            "tasks_worse": 1
+          },
+          "cost_all": {
+            "diff": -0.0008300151666666668,
+            "ci": [
+              -0.0011870612458333334,
+              -0.0005007940833333336
+            ],
+            "p_perm": 0.0007,
+            "tasks": 12,
+            "tasks_better": 1,
+            "tasks_worse": 11
+          },
+          "wall_all": {
+            "diff": -7.975833333333334,
+            "ci": [
+              -10.59985,
+              -5.186683333333336
+            ],
+            "p_perm": 0.0007,
+            "tasks": 12,
+            "tasks_better": 1,
+            "tasks_worse": 11
+          }
+        },
+        "selfgen": {
+          "all": {
+            "diff": -0.2,
+            "ci": [
+              -0.43333333333333335,
+              -9.020562075082762e-18
+            ],
+            "p_perm": 0.1901,
+            "tasks": 12,
+            "tasks_better": 1,
+            "tasks_worse": 4
+          },
+          "migration": {
+            "diff": -0.23333333333333334,
+            "ci": [
+              -0.5666666666666667,
+              0.033333333333333326
+            ],
+            "p_perm": 0.3773,
+            "tasks": 6,
+            "tasks_better": 1,
+            "tasks_worse": 3
+          },
+          "release": {
+            "diff": -0.16666666666666666,
+            "ci": [
+              -0.5,
+              0.0
+            ],
+            "p_perm": 1.0,
+            "tasks": 6,
+            "tasks_better": 0,
+            "tasks_worse": 1
+          },
+          "score_all": {
+            "diff": -0.0583080808080808,
+            "ci": [
+              -0.164004329004329,
+              0.010541125541125554
+            ],
+            "p_perm": 0.263,
+            "tasks": 12,
+            "tasks_better": 2,
+            "tasks_worse": 6
+          },
+          "cost_all": {
+            "diff": -7.320191666666685e-05,
+            "ci": [
+              -0.00031837866458333337,
+              0.00013524977499999963
+            ],
+            "p_perm": 0.5653,
+            "tasks": 12,
+            "tasks_better": 7,
+            "tasks_worse": 5
+          },
+          "wall_all": {
+            "diff": -2.114833333333334,
+            "ci": [
+              -5.4610875,
+              1.255716666666665
+            ],
+            "p_perm": 0.2474,
+            "tasks": 12,
+            "tasks_better": 5,
+            "tasks_worse": 7
+          }
+        }
+      },
+      "checks": {
+        "none": {
+          "no_git_tag_created": 15,
+          "changelog_entries_moved": 5,
+          "changelog_section_order": 5,
+          "version_init": 2,
+          "version_pyproject": 1,
+          "changelog_release_heading": 1,
+          "changelog_links": 1,
+          "release_file_exists": 1,
+          "release_file_core_fields": 1,
+          "release_file_bump": 1,
+          "release_file_migrations": 1,
+          "schema_snapshot_regenerated": 1
+        },
+        "compact": {
+          "intended_change": 2,
+          "changelog_section_order": 1
+        },
+        "comprehensive": {
+          "money_column_convention": 2
+        },
+        "selfgen": {
+          "no_git_tag_created": 30,
+          "index_naming_convention": 5,
+          "version_pyproject": 5,
+          "version_init": 5,
+          "changelog_release_heading": 5,
+          "changelog_links": 5,
+          "release_file_exists": 5,
+          "release_file_core_fields": 5,
+          "release_file_bump": 5,
+          "release_file_migrations": 5,
+          "changelog_section_order": 5,
+          "intended_change": 2,
+          "money_column_convention": 1
+        }
+      },
+      "per_task": {
+        "mig-01-phone": {
+          "none": [
+            4,
+            5
+          ],
+          "compact": [
+            5,
+            5
+          ],
+          "comprehensive": [
+            5,
+            5
+          ],
+          "selfgen": [
+            5,
+            5
+          ]
+        },
+        "mig-02-channel": {
+          "none": [
+            5,
+            5
+          ],
+          "compact": [
+            5,
+            5
+          ],
+          "comprehensive": [
+            5,
+            5
+          ],
+          "selfgen": [
+            5,
+            5
+          ]
+        },
+        "mig-03-refunds": {
+          "none": [
+            5,
+            5
+          ],
+          "compact": [
+            5,
+            5
+          ],
+          "comprehensive": [
+            3,
+            5
+          ],
+          "selfgen": [
+            4,
+            5
+          ]
+        },
+        "mig-04-created-index": {
+          "none": [
+            5,
+            5
+          ],
+          "compact": [
+            5,
+            5
+          ],
+          "comprehensive": [
+            5,
+            5
+          ],
+          "selfgen": [
+            5,
+            5
+          ]
+        },
+        "mig-05-sku": {
+          "none": [
+            5,
+            5
+          ],
+          "compact": [
+            5,
+            5
+          ],
+          "comprehensive": [
+            5,
+            5
+          ],
+          "selfgen": [
+            0,
+            5
+          ]
+        },
+        "mig-06-discount": {
+          "none": [
+            5,
+            5
+          ],
+          "compact": [
+            3,
+            5
+          ],
+          "comprehensive": [
+            5,
+            5
+          ],
+          "selfgen": [
+            3,
+            5
+          ]
+        },
+        "rel-01-patch": {
+          "none": [
+            0,
+            5
+          ],
+          "compact": [
+            5,
+            5
+          ],
+          "comprehensive": [
+            5,
+            5
+          ],
+          "selfgen": [
+            0,
+            5
+          ]
+        },
+        "rel-02-minor": {
+          "none": [
+            5,
+            5
+          ],
+          "compact": [
+            5,
+            5
+          ],
+          "comprehensive": [
+            5,
+            5
+          ],
+          "selfgen": [
+            0,
+            5
+          ]
+        },
+        "rel-03-major": {
+          "none": [
+            0,
+            5
+          ],
+          "compact": [
+            5,
+            5
+          ],
+          "comprehensive": [
+            5,
+            5
+          ],
+          "selfgen": [
+            0,
+            5
+          ]
+        },
+        "rel-04-changed": {
+          "none": [
+            0,
+            5
+          ],
+          "compact": [
+            5,
+            5
+          ],
+          "comprehensive": [
+            5,
+            5
+          ],
+          "selfgen": [
+            0,
+            5
+          ]
+        },
+        "rel-05-rc": {
+          "none": [
+            0,
+            5
+          ],
+          "compact": [
+            5,
+            5
+          ],
+          "comprehensive": [
+            5,
+            5
+          ],
+          "selfgen": [
+            0,
+            5
+          ]
+        },
+        "rel-06-security": {
+          "none": [
+            0,
+            5
+          ],
+          "compact": [
+            4,
+            5
+          ],
+          "comprehensive": [
+            5,
+            5
+          ],
+          "selfgen": [
+            0,
+            5
+          ]
+        }
+      }
+    },
+    "claude-opus-5-5": {
+      "conditions": {
+        "none": {
+          "n": 23,
+          "passed": 15,
+          "pass_rate": 0.6521739130434783,
+          "wilson": [
+            0.4488997690689164,
+            0.8118894536301776
+          ],
+          "mean_score": 0.9751552795031057,
+          "cost_total": 2.5649532,
+          "cost_mean": 0.11151970434782608,
+          "cost_per_pass": 0.17099688000000002,
+          "cli_cost_total": 2.5649532,
+          "wall_median": 34.54,
+          "wall_p25": 28.765,
+          "wall_p75": 84.45,
+          "input_tokens_mean": 103603.91304347826,
+          "cache_read_mean": 92796.78260869565,
+          "output_tokens_mean": 1946.7826086956522,
+          "turns_mean": 5.478260869565218,
+          "skill_loaded_rate": 0.0,
+          "errors": 0
+        },
+        "compact": {
+          "n": 24,
+          "passed": 24,
+          "pass_rate": 1.0,
+          "wilson": [
+            0.8620194241710247,
+            1.0
+          ],
+          "mean_score": 1.0,
+          "cost_total": 1.8903096000000001,
+          "cost_mean": 0.0787629,
+          "cost_per_pass": 0.07876290000000001,
+          "cli_cost_total": 1.8903096000000001,
+          "wall_median": 21.48,
+          "wall_p25": 18.682499999999997,
+          "wall_p75": 34.54,
+          "input_tokens_mean": 77120.08333333333,
+          "cache_read_mean": 68654.08333333333,
+          "output_tokens_mean": 1135.5416666666667,
+          "turns_mean": 5.375,
+          "skill_loaded_rate": 1.0,
+          "errors": 0,
+          "right_skill_rate_when_loaded": 1.0
+        }
+      },
+      "families": {
+        "migration": {
+          "none": {
+            "n": 12,
+            "passed": 12,
+            "pass_rate": 1.0,
+            "wilson": [
+              0.7574992425007574,
+              1.0
+            ],
+            "mean_score": 1.0,
+            "cost_total": 1.3351244,
+            "cost_mean": 0.11126036666666667,
+            "cost_per_pass": 0.11126036666666667,
+            "cli_cost_total": 1.3351244,
+            "wall_median": 35.120000000000005,
+            "wall_p25": 28.7725,
+            "wall_p75": 74.965,
+            "input_tokens_mean": 101041.83333333333,
+            "cache_read_mean": 90146.83333333333,
+            "output_tokens_mean": 1938.3333333333333,
+            "turns_mean": 5.333333333333333,
+            "skill_loaded_rate": 0.0,
+            "errors": 0
+          },
+          "compact": {
+            "n": 12,
+            "passed": 12,
+            "pass_rate": 1.0,
+            "wilson": [
+              0.7574992425007574,
+              1.0
+            ],
+            "mean_score": 1.0,
+            "cost_total": 0.935782,
+            "cost_mean": 0.07798183333333333,
+            "cost_per_pass": 0.07798183333333333,
+            "cli_cost_total": 0.935782,
+            "wall_median": 25.939999999999998,
+            "wall_p25": 18.38,
+            "wall_p75": 46.5225,
+            "input_tokens_mean": 80606.66666666667,
+            "cache_read_mean": 72334.16666666667,
+            "output_tokens_mean": 1108.0833333333333,
+            "turns_mean": 5.583333333333333,
+            "skill_loaded_rate": 1.0,
+            "errors": 0
+          }
+        },
+        "release": {
+          "none": {
+            "n": 11,
+            "passed": 3,
+            "pass_rate": 0.2727272727272727,
+            "wilson": [
+              0.09745880573921467,
+              0.5656502930102463
+            ],
+            "mean_score": 0.948051948051948,
+            "cost_total": 1.2298288,
+            "cost_mean": 0.11180261818181818,
+            "cost_per_pass": 0.4099429333333333,
+            "cli_cost_total": 1.2298288,
+            "wall_median": 34.54,
+            "wall_p25": 28.43,
+            "wall_p75": 93.11500000000001,
+            "input_tokens_mean": 106398.90909090909,
+            "cache_read_mean": 95687.63636363637,
+            "output_tokens_mean": 1956,
+            "turns_mean": 5.636363636363637,
+            "skill_loaded_rate": 0.0,
+            "errors": 0
+          },
+          "compact": {
+            "n": 12,
+            "passed": 12,
+            "pass_rate": 1.0,
+            "wilson": [
+              0.7574992425007574,
+              1.0
+            ],
+            "mean_score": 1.0,
+            "cost_total": 0.9545276,
+            "cost_mean": 0.07954396666666667,
+            "cost_per_pass": 0.07954396666666667,
+            "cli_cost_total": 0.9545276,
+            "wall_median": 21.455,
+            "wall_p25": 18.9475,
+            "wall_p75": 29.45,
+            "input_tokens_mean": 73633.5,
+            "cache_read_mean": 64974,
+            "output_tokens_mean": 1163,
+            "turns_mean": 5.166666666666667,
+            "skill_loaded_rate": 1.0,
+            "errors": 0
+          }
+        }
+      },
+      "paired": {
+        "compact": {
+          "all": {
+            "diff": 0.375,
+            "ci": [
+              0.125,
+              0.625
+            ],
+            "p_perm": 0.0639,
+            "tasks": 12,
+            "tasks_better": 5,
+            "tasks_worse": 0
+          },
+          "migration": {
+            "diff": 0.0,
+            "ci": [
+              0.0,
+              0.0
+            ],
+            "p_perm": 1.0,
+            "tasks": 6,
+            "tasks_better": 0,
+            "tasks_worse": 0
+          },
+          "release": {
+            "diff": 0.75,
+            "ci": [
+              0.4166666666666667,
+              1.0
+            ],
+            "p_perm": 0.0632,
+            "tasks": 6,
+            "tasks_better": 5,
+            "tasks_worse": 0
+          },
+          "score_all": {
+            "diff": 0.026785714285714274,
+            "ci": [
+              0.008928571428571425,
+              0.04464285714285712
+            ],
+            "p_perm": 0.0639,
+            "tasks": 12,
+            "tasks_better": 5,
+            "tasks_worse": 0
+          },
+          "cost_all": {
+            "diff": -0.032895491666666665,
+            "ci": [
+              -0.03878195645833333,
+              -0.02739200375
+            ],
+            "p_perm": 0.0002,
+            "tasks": 12,
+            "tasks_better": 0,
+            "tasks_worse": 12
+          },
+          "wall_all": {
+            "diff": -23.830416666666665,
+            "ci": [
+              -40.487125,
+              -5.869968749999998
+            ],
+            "p_perm": 0.027,
+            "tasks": 12,
+            "tasks_better": 2,
+            "tasks_worse": 10
+          }
+        }
+      },
+      "checks": {
+        "none": {
+          "no_git_tag_created": 5,
+          "changelog_section_order": 2,
+          "changelog_entries_moved": 1
+        },
+        "compact": {}
+      },
+      "per_task": {
+        "mig-01-phone": {
+          "none": [
+            2,
+            2
+          ],
+          "compact": [
+            2,
+            2
+          ],
+          "comprehensive": [
+            0,
+            0
+          ],
+          "selfgen": [
+            0,
+            0
+          ]
+        },
+        "mig-02-channel": {
+          "none": [
+            2,
+            2
+          ],
+          "compact": [
+            2,
+            2
+          ],
+          "comprehensive": [
+            0,
+            0
+          ],
+          "selfgen": [
+            0,
+            0
+          ]
+        },
+        "mig-03-refunds": {
+          "none": [
+            2,
+            2
+          ],
+          "compact": [
+            2,
+            2
+          ],
+          "comprehensive": [
+            0,
+            0
+          ],
+          "selfgen": [
+            0,
+            0
+          ]
+        },
+        "mig-04-created-index": {
+          "none": [
+            2,
+            2
+          ],
+          "compact": [
+            2,
+            2
+          ],
+          "comprehensive": [
+            0,
+            0
+          ],
+          "selfgen": [
+            0,
+            0
+          ]
+        },
+        "mig-05-sku": {
+          "none": [
+            2,
+            2
+          ],
+          "compact": [
+            2,
+            2
+          ],
+          "comprehensive": [
+            0,
+            0
+          ],
+          "selfgen": [
+            0,
+            0
+          ]
+        },
+        "mig-06-discount": {
+          "none": [
+            2,
+            2
+          ],
+          "compact": [
+            2,
+            2
+          ],
+          "comprehensive": [
+            0,
+            0
+          ],
+          "selfgen": [
+            0,
+            0
+          ]
+        },
+        "rel-01-patch": {
+          "none": [
+            0,
+            2
+          ],
+          "compact": [
+            2,
+            2
+          ],
+          "comprehensive": [
+            0,
+            0
+          ],
+          "selfgen": [
+            0,
+            0
+          ]
+        },
+        "rel-02-minor": {
+          "none": [
+            2,
+            2
+          ],
+          "compact": [
+            2,
+            2
+          ],
+          "comprehensive": [
+            0,
+            0
+          ],
+          "selfgen": [
+            0,
+            0
+          ]
+        },
+        "rel-03-major": {
+          "none": [
+            1,
+            2
+          ],
+          "compact": [
+            2,
+            2
+          ],
+          "comprehensive": [
+            0,
+            0
+          ],
+          "selfgen": [
+            0,
+            0
+          ]
+        },
+        "rel-04-changed": {
+          "none": [
+            0,
+            1
+          ],
+          "compact": [
+            2,
+            2
+          ],
+          "comprehensive": [
+            0,
+            0
+          ],
+          "selfgen": [
+            0,
+            0
+          ]
+        },
+        "rel-05-rc": {
+          "none": [
+            0,
+            2
+          ],
+          "compact": [
+            2,
+            2
+          ],
+          "comprehensive": [
+            0,
+            0
+          ],
+          "selfgen": [
+            0,
+            0
+          ]
+        },
+        "rel-06-security": {
+          "none": [
+            0,
+            2
+          ],
+          "compact": [
+            2,
+            2
+          ],
+          "comprehensive": [
+            0,
+            0
+          ],
+          "selfgen": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "claude-sonnet-5-5": {
+      "conditions": {
+        "none": {
+          "n": 60,
+          "passed": 40,
+          "pass_rate": 0.6666666666666666,
+          "wilson": [
+            0.540566298666634,
+            0.7727090578407216
+          ],
+          "mean_score": 0.9547619047619048,
+          "cost_total": 2.5623776,
+          "cost_mean": 0.04270629333333333,
+          "cost_per_pass": 0.06405944,
+          "cli_cost_total": 3.0195482,
+          "wall_median": 13.75,
+          "wall_p25": 11.864999999999998,
+          "wall_p75": 18.085,
+          "input_tokens_mean": 84849,
+          "cache_read_mean": 76195.1,
+          "output_tokens_mean": 1345.6833333333334,
+          "turns_mean": 5.05,
+          "skill_loaded_rate": 0.0,
+          "errors": 0
+        },
+        "compact": {
+          "n": 60,
+          "passed": 60,
+          "pass_rate": 1.0,
+          "wilson": [
+            0.9398260695220669,
+            0.9999999999999999
+          ],
+          "mean_score": 1.0,
+          "cost_total": 2.2139163,
+          "cost_mean": 0.036898605,
+          "cost_per_pass": 0.036898605,
+          "cli_cost_total": 2.6353181,
+          "wall_median": 11.024999999999999,
+          "wall_p25": 9.665,
+          "wall_p75": 14.592500000000001,
+          "input_tokens_mean": 78136.91666666667,
+          "cache_read_mean": 70233.63333333333,
+          "output_tokens_mean": 1012.15,
+          "turns_mean": 5.5,
+          "skill_loaded_rate": 1.0,
+          "errors": 0,
+          "right_skill_rate_when_loaded": 1.0
+        },
+        "comprehensive": {
+          "n": 60,
+          "passed": 60,
+          "pass_rate": 1.0,
+          "wilson": [
+            0.9398260695220669,
+            0.9999999999999999
+          ],
+          "mean_score": 1.0,
+          "cost_total": 2.7487779,
+          "cost_mean": 0.045812965000000004,
+          "cost_per_pass": 0.045812965,
+          "cli_cost_total": 3.1752353,
+          "wall_median": 10.395,
+          "wall_p25": 9.68,
+          "wall_p75": 12.3875,
+          "input_tokens_mean": 82334.08333333333,
+          "cache_read_mean": 71076.23333333334,
+          "output_tokens_mean": 1056.4833333333333,
+          "turns_mean": 5.6,
+          "skill_loaded_rate": 1.0,
+          "errors": 0,
+          "right_skill_rate_when_loaded": 1.0
+        },
+        "selfgen": {
+          "n": 60,
+          "passed": 25,
+          "pass_rate": 0.4166666666666667,
+          "wilson": [
+            0.30064086487871833,
+            0.5427214568676039
+          ],
+          "mean_score": 0.8335317460317461,
+          "cost_total": 2.8608788,
+          "cost_mean": 0.047681313333333336,
+          "cost_per_pass": 0.114435152,
+          "cli_cost_total": 3.3911961,
+          "wall_median": 16.810000000000002,
+          "wall_p25": 14.3575,
+          "wall_p75": 22.9275,
+          "input_tokens_mean": 97785.73333333334,
+          "cache_read_mean": 88386.21666666666,
+          "output_tokens_mean": 1534.9166666666667,
+          "turns_mean": 6.3,
+          "skill_loaded_rate": 1.0,
+          "errors": 0,
+          "right_skill_rate_when_loaded": 1.0
+        }
+      },
+      "families": {
+        "migration": {
+          "none": {
+            "n": 30,
+            "passed": 30,
+            "pass_rate": 1.0,
+            "wilson": [
+              0.8864829086095221,
+              1.0
+            ],
+            "mean_score": 1.0,
+            "cost_total": 1.2678888,
+            "cost_mean": 0.04226296,
+            "cost_per_pass": 0.042262959999999995,
+            "cli_cost_total": 1.4758746,
+            "wall_median": 13.129999999999999,
+            "wall_p25": 11.594999999999999,
+            "wall_p75": 17.6375,
+            "input_tokens_mean": 78331.33333333333,
+            "cache_read_mean": 69328.6,
+            "output_tokens_mean": 1282.7666666666667,
+            "turns_mean": 4.5,
+            "skill_loaded_rate": 0.0,
+            "errors": 0
+          },
+          "compact": {
+            "n": 30,
+            "passed": 30,
+            "pass_rate": 1.0,
+            "wilson": [
+              0.8864829086095221,
+              1.0
+            ],
+            "mean_score": 1.0,
+            "cost_total": 1.1180345,
+            "cost_mean": 0.03726781666666667,
+            "cost_per_pass": 0.03726781666666667,
+            "cli_cost_total": 1.351831,
+            "wall_median": 11.75,
+            "wall_p25": 10.3525,
+            "wall_p75": 16.017500000000002,
+            "input_tokens_mean": 85617.7,
+            "cache_read_mean": 77932.16666666667,
+            "output_tokens_mean": 1026.5666666666666,
+            "turns_mean": 5.966666666666667,
+            "skill_loaded_rate": 1.0,
+            "errors": 0
+          },
+          "comprehensive": {
+            "n": 30,
+            "passed": 30,
+            "pass_rate": 1.0,
+            "wilson": [
+              0.8864829086095221,
+              1.0
+            ],
+            "mean_score": 1.0,
+            "cost_total": 1.3817014,
+            "cost_mean": 0.04605671333333333,
+            "cost_per_pass": 0.04605671333333334,
+            "cli_cost_total": 1.6042088,
+            "wall_median": 10.45,
+            "wall_p25": 9.205,
+            "wall_p75": 12.4475,
+            "input_tokens_mean": 85796.2,
+            "cache_read_mean": 74169.13333333333,
+            "output_tokens_mean": 957.6333333333333,
+            "turns_mean": 5.433333333333334,
+            "skill_loaded_rate": 1.0,
+            "errors": 0
+          },
+          "selfgen": {
+            "n": 30,
+            "passed": 25,
+            "pass_rate": 0.8333333333333334,
+            "wilson": [
+              0.6643529481431982,
+              0.9266356575964831
+            ],
+            "mean_score": 0.9861111111111112,
+            "cost_total": 1.5249082,
+            "cost_mean": 0.050830273333333335,
+            "cost_per_pass": 0.060996328,
+            "cli_cost_total": 1.8182219,
+            "wall_median": 18.635,
+            "wall_p25": 16.0325,
+            "wall_p75": 31.205,
+            "input_tokens_mean": 107238,
+            "cache_read_mean": 97771.23333333334,
+            "output_tokens_mean": 1739.2,
+            "turns_mean": 6.833333333333333,
+            "skill_loaded_rate": 1.0,
+            "errors": 0
+          }
+        },
+        "release": {
+          "none": {
+            "n": 30,
+            "passed": 10,
+            "pass_rate": 0.3333333333333333,
+            "wilson": [
+              0.19230295526846194,
+              0.5122027418616973
+            ],
+            "mean_score": 0.9095238095238095,
+            "cost_total": 1.2944888,
+            "cost_mean": 0.04314962666666667,
+            "cost_per_pass": 0.12944888000000002,
+            "cli_cost_total": 1.5436736,
+            "wall_median": 14.615,
+            "wall_p25": 13.2175,
+            "wall_p75": 17.9875,
+            "input_tokens_mean": 91366.66666666667,
+            "cache_read_mean": 83061.6,
+            "output_tokens_mean": 1408.6,
+            "turns_mean": 5.6,
+            "skill_loaded_rate": 0.0,
+            "errors": 0
+          },
+          "compact": {
+            "n": 30,
+            "passed": 30,
+            "pass_rate": 1.0,
+            "wilson": [
+              0.8864829086095221,
+              1.0
+            ],
+            "mean_score": 1.0,
+            "cost_total": 1.0958818,
+            "cost_mean": 0.03652939333333333,
+            "cost_per_pass": 0.03652939333333333,
+            "cli_cost_total": 1.2834871,
+            "wall_median": 9.995000000000001,
+            "wall_p25": 9.3275,
+            "wall_p75": 12.41,
+            "input_tokens_mean": 70656.13333333333,
+            "cache_read_mean": 62535.1,
+            "output_tokens_mean": 997.7333333333333,
+            "turns_mean": 5.033333333333333,
+            "skill_loaded_rate": 1.0,
+            "errors": 0
+          },
+          "comprehensive": {
+            "n": 30,
+            "passed": 30,
+            "pass_rate": 1.0,
+            "wilson": [
+              0.8864829086095221,
+              1.0
+            ],
+            "mean_score": 1.0,
+            "cost_total": 1.3670765,
+            "cost_mean": 0.04556921666666667,
+            "cost_per_pass": 0.04556921666666667,
+            "cli_cost_total": 1.5710265,
+            "wall_median": 10.395,
+            "wall_p25": 9.895,
+            "wall_p75": 12.344999999999999,
+            "input_tokens_mean": 78871.96666666666,
+            "cache_read_mean": 67983.33333333333,
+            "output_tokens_mean": 1155.3333333333333,
+            "turns_mean": 5.766666666666667,
+            "skill_loaded_rate": 1.0,
+            "errors": 0
+          },
+          "selfgen": {
+            "n": 30,
+            "passed": 0,
+            "pass_rate": 0.0,
+            "wilson": [
+              0.0,
+              0.113517091390478
+            ],
+            "mean_score": 0.680952380952381,
+            "cost_total": 1.3359706,
+            "cost_mean": 0.04453235333333333,
+            "cost_per_pass": null,
+            "cli_cost_total": 1.5729742,
+            "wall_median": 14.885,
+            "wall_p25": 12.1425,
+            "wall_p75": 18.2925,
+            "input_tokens_mean": 88333.46666666666,
+            "cache_read_mean": 79001.2,
+            "output_tokens_mean": 1330.6333333333334,
+            "turns_mean": 5.766666666666667,
+            "skill_loaded_rate": 1.0,
+            "errors": 0
+          }
+        }
+      },
+      "paired": {
+        "compact": {
+          "all": {
+            "diff": 0.3333333333333333,
+            "ci": [
+              0.08333333333333333,
+              0.5833333333333334
+            ],
+            "p_perm": 0.1228,
+            "tasks": 12,
+            "tasks_better": 4,
+            "tasks_worse": 0
+          },
+          "migration": {
+            "diff": 0.0,
+            "ci": [
+              0.0,
+              0.0
+            ],
+            "p_perm": 1.0,
+            "tasks": 6,
+            "tasks_better": 0,
+            "tasks_worse": 0
+          },
+          "release": {
+            "diff": 0.6666666666666666,
+            "ci": [
+              0.3333333333333333,
+              1.0
+            ],
+            "p_perm": 0.1273,
+            "tasks": 6,
+            "tasks_better": 4,
+            "tasks_worse": 0
+          },
+          "score_all": {
+            "diff": 0.04523809523809522,
+            "ci": [
+              0.0059523809523809494,
+              0.10595238095238092
+            ],
+            "p_perm": 0.1228,
+            "tasks": 12,
+            "tasks_better": 4,
+            "tasks_worse": 0
+          },
+          "cost_all": {
+            "diff": -0.005807688333333334,
+            "ci": [
+              -0.007540940249999999,
+              -0.003988141416666669
+            ],
+            "p_perm": 0.0012,
+            "tasks": 12,
+            "tasks_better": 1,
+            "tasks_worse": 11
+          },
+          "wall_all": {
+            "diff": -3.0468333333333337,
+            "ci": [
+              -6.426929166666667,
+              0.20853333333333232
+            ],
+            "p_perm": 0.0984,
+            "tasks": 12,
+            "tasks_better": 4,
+            "tasks_worse": 8
+          }
+        },
+        "comprehensive": {
+          "all": {
+            "diff": 0.3333333333333333,
+            "ci": [
+              0.08333333333333333,
+              0.5833333333333334
+            ],
+            "p_perm": 0.1228,
+            "tasks": 12,
+            "tasks_better": 4,
+            "tasks_worse": 0
+          },
+          "migration": {
+            "diff": 0.0,
+            "ci": [
+              0.0,
+              0.0
+            ],
+            "p_perm": 1.0,
+            "tasks": 6,
+            "tasks_better": 0,
+            "tasks_worse": 0
+          },
+          "release": {
+            "diff": 0.6666666666666666,
+            "ci": [
+              0.3333333333333333,
+              1.0
+            ],
+            "p_perm": 0.1273,
+            "tasks": 6,
+            "tasks_better": 4,
+            "tasks_worse": 0
+          },
+          "score_all": {
+            "diff": 0.04523809523809522,
+            "ci": [
+              0.0059523809523809494,
+              0.10595238095238092
+            ],
+            "p_perm": 0.1228,
+            "tasks": 12,
+            "tasks_better": 4,
+            "tasks_worse": 0
+          },
+          "cost_all": {
+            "diff": 0.0031066716666666677,
+            "ci": [
+              0.0015068944166666692,
+              0.004484554083333333
+            ],
+            "p_perm": 0.0051,
+            "tasks": 12,
+            "tasks_better": 11,
+            "tasks_worse": 1
+          },
+          "wall_all": {
+            "diff": -3.3421666666666665,
+            "ci": [
+              -7.1969916666666665,
+              0.16394166666666515
+            ],
+            "p_perm": 0.1073,
+            "tasks": 12,
+            "tasks_better": 4,
+            "tasks_worse": 8
+          }
+        },
+        "selfgen": {
+          "all": {
+            "diff": -0.25,
+            "ci": [
+              -0.5,
+              0.0
+            ],
+            "p_perm": 0.254,
+            "tasks": 12,
+            "tasks_better": 0,
+            "tasks_worse": 3
+          },
+          "migration": {
+            "diff": -0.16666666666666666,
+            "ci": [
+              -0.5,
+              0.0
+            ],
+            "p_perm": 1.0,
+            "tasks": 6,
+            "tasks_better": 0,
+            "tasks_worse": 1
+          },
+          "release": {
+            "diff": -0.3333333333333333,
+            "ci": [
+              -0.6666666666666666,
+              0.0
+            ],
+            "p_perm": 0.5038,
+            "tasks": 6,
+            "tasks_better": 0,
+            "tasks_worse": 2
+          },
+          "score_all": {
+            "diff": -0.12123015873015874,
+            "ci": [
+              -0.3045634920634921,
+              0.02400793650793649
+            ],
+            "p_perm": 0.2816,
+            "tasks": 12,
+            "tasks_better": 1,
+            "tasks_worse": 5
+          },
+          "cost_all": {
+            "diff": 0.00497502,
+            "ci": [
+              0.0012949339583333353,
+              0.008275917208333332
+            ],
+            "p_perm": 0.028,
+            "tasks": 12,
+            "tasks_better": 10,
+            "tasks_worse": 2
+          },
+          "wall_all": {
+            "diff": 4.230666666666667,
+            "ci": [
+              1.590666666666667,
+              6.699933333333332
+            ],
+            "p_perm": 0.0115,
+            "tasks": 12,
+            "tasks_better": 10,
+            "tasks_worse": 2
+          }
+        }
+      },
+      "checks": {
+        "none": {
+          "no_git_tag_created": 15,
+          "changelog_section_order": 6,
+          "changelog_release_heading": 3,
+          "changelog_links": 3,
+          "release_file_exists": 2,
+          "release_file_core_fields": 2,
+          "release_file_bump": 2,
+          "release_file_migrations": 2,
+          "changelog_unreleased_empty_on_top": 1,
+          "changelog_entries_moved": 1,
+          "changelog_history_untouched": 1
+        },
+        "compact": {},
+        "comprehensive": {},
+        "selfgen": {
+          "no_git_tag_created": 21,
+          "changelog_section_order": 14,
+          "version_pyproject": 9,
+          "version_init": 9,
+          "changelog_unreleased_empty_on_top": 9,
+          "changelog_release_heading": 9,
+          "changelog_entries_moved": 9,
+          "changelog_history_untouched": 9,
+          "changelog_links": 9,
+          "release_file_exists": 9,
+          "release_file_core_fields": 9,
+          "release_file_bump": 9,
+          "release_file_migrations": 9,
+          "index_naming_convention": 5
+        }
+      },
+      "per_task": {
+        "mig-01-phone": {
+          "none": [
+            5,
+            5
+          ],
+          "compact": [
+            5,
+            5
+          ],
+          "comprehensive": [
+            5,
+            5
+          ],
+          "selfgen": [
+            5,
+            5
+          ]
+        },
+        "mig-02-channel": {
+          "none": [
+            5,
+            5
+          ],
+          "compact": [
+            5,
+            5
+          ],
+          "comprehensive": [
+            5,
+            5
+          ],
+          "selfgen": [
+            5,
+            5
+          ]
+        },
+        "mig-03-refunds": {
+          "none": [
+            5,
+            5
+          ],
+          "compact": [
+            5,
+            5
+          ],
+          "comprehensive": [
+            5,
+            5
+          ],
+          "selfgen": [
+            5,
+            5
+          ]
+        },
+        "mig-04-created-index": {
+          "none": [
+            5,
+            5
+          ],
+          "compact": [
+            5,
+            5
+          ],
+          "comprehensive": [
+            5,
+            5
+          ],
+          "selfgen": [
+            5,
+            5
+          ]
+        },
+        "mig-05-sku": {
+          "none": [
+            5,
+            5
+          ],
+          "compact": [
+            5,
+            5
+          ],
+          "comprehensive": [
+            5,
+            5
+          ],
+          "selfgen": [
+            0,
+            5
+          ]
+        },
+        "mig-06-discount": {
+          "none": [
+            5,
+            5
+          ],
+          "compact": [
+            5,
+            5
+          ],
+          "comprehensive": [
+            5,
+            5
+          ],
+          "selfgen": [
+            5,
+            5
+          ]
+        },
+        "rel-01-patch": {
+          "none": [
+            0,
+            5
+          ],
+          "compact": [
+            5,
+            5
+          ],
+          "comprehensive": [
+            5,
+            5
+          ],
+          "selfgen": [
+            0,
+            5
+          ]
+        },
+        "rel-02-minor": {
+          "none": [
+            5,
+            5
+          ],
+          "compact": [
+            5,
+            5
+          ],
+          "comprehensive": [
+            5,
+            5
+          ],
+          "selfgen": [
+            0,
+            5
+          ]
+        },
+        "rel-03-major": {
+          "none": [
+            5,
+            5
+          ],
+          "compact": [
+            5,
+            5
+          ],
+          "comprehensive": [
+            5,
+            5
+          ],
+          "selfgen": [
+            0,
+            5
+          ]
+        },
+        "rel-04-changed": {
+          "none": [
+            0,
+            5
+          ],
+          "compact": [
+            5,
+            5
+          ],
+          "comprehensive": [
+            5,
+            5
+          ],
+          "selfgen": [
+            0,
+            5
+          ]
+        },
+        "rel-05-rc": {
+          "none": [
+            0,
+            5
+          ],
+          "compact": [
+            5,
+            5
+          ],
+          "comprehensive": [
+            5,
+            5
+          ],
+          "selfgen": [
+            0,
+            5
+          ]
+        },
+        "rel-06-security": {
+          "none": [
+            0,
+            5
+          ],
+          "compact": [
+            5,
+            5
+          ],
+          "comprehensive": [
+            5,
+            5
+          ],
+          "selfgen": [
+            0,
+            5
+          ]
+        }
+      }
+    }
+  },
+  "n_runs": 527,
+  "trigger": {
+    "claude-haiku-5-5": {
+      "pos_n": 20,
+      "pos_triggered": 20,
+      "pos_ci": [
+        0.8388698745050667,
+        1.0
+      ],
+      "neg_n": 20,
+      "neg_triggered": 0,
+      "neg_ci": [
+        0.0,
+        0.16113012549493322
+      ],
+      "missed": [],
+      "false": [],
+      "cost_total": 0.06916608
+    },
+    "claude-sonnet-5-5": {
+      "pos_n": 20,
+      "pos_triggered": 20,
+      "pos_ci": [
+        0.8388698745050667,
+        1.0
+      ],
+      "neg_n": 20,
+      "neg_triggered": 0,
+      "neg_ci": [
+        0.0,
+        0.16113012549493322
+      ],
+      "missed": [],
+      "false": [],
+      "cost_total": 1.0262040000000001
+    }
+  },
+  "sensitivity_ignore_tag_rule": {
+    "claude-haiku-5-5": {
+      "none": {
+        "release_passed": 19,
+        "release_n": 30,
+        "wilson": [
+          0.45513246433604937,
+          0.7812629779598231
+        ]
+      },
+      "compact": {
+        "release_passed": 29,
+        "release_n": 30,
+        "wilson": [
+          0.8332924860304112,
+          0.9940915620051425
+        ]
+      },
+      "comprehensive": {
+        "release_passed": 30,
+        "release_n": 30,
+        "wilson": [
+          0.8864829086095221,
+          1.0
+        ]
+      },
+      "selfgen": {
+        "release_passed": 20,
+        "release_n": 30,
+        "wilson": [
+          0.48779725813830266,
+          0.807697044731538
+        ]
+      }
+    },
+    "claude-opus-5-5": {
+      "none": {
+        "release_passed": 8,
+        "release_n": 11,
+        "wilson": [
+          0.4343497069897537,
+          0.9025411942607853
+        ]
+      },
+      "compact": {
+        "release_passed": 12,
+        "release_n": 12,
+        "wilson": [
+          0.7574992425007574,
+          1.0
+        ]
+      }
+    },
+    "claude-sonnet-5-5": {
+      "none": {
+        "release_passed": 22,
+        "release_n": 30,
+        "wilson": [
+          0.5555169795568831,
+          0.8581750444608938
+        ]
+      },
+      "compact": {
+        "release_passed": 30,
+        "release_n": 30,
+        "wilson": [
+          0.8864829086095221,
+          1.0
+        ]
+      },
+      "comprehensive": {
+        "release_passed": 30,
+        "release_n": 30,
+        "wilson": [
+          0.8864829086095221,
+          1.0
+        ]
+      },
+      "selfgen": {
+        "release_passed": 16,
+        "release_n": 30,
+        "wilson": [
+          0.3614201328152505,
+          0.6976787277587178
+        ]
+      }
+    }
+  },
+  "sensitivity_no_git_identity": {
+    "claude-haiku-5-5": {
+      "none": {
+        "all": {
+          "n": 60,
+          "passed": 32,
+          "pass_rate": 0.5333333333333333,
+          "wilson": [
+            0.40893208671135106,
+            0.65372298459012
+          ],
+          "mean_score": 0.9364285714285714,
+          "cost_total": 0.29867743,
+          "cost_mean": 0.0049779571666666664,
+          "cost_per_pass": 0.0093336696875,
+          "cli_cost_total": 0.29867743,
+          "wall_median": 18.564999999999998,
+          "wall_p25": 16.705,
+          "wall_p75": 23.2725,
+          "input_tokens_mean": 160419.08333333334,
+          "cache_read_mean": 147824.38333333333,
+          "output_tokens_mean": 3851.516666666667,
+          "turns_mean": 11.183333333333334,
+          "skill_loaded_rate": 0.0,
+          "errors": 0
+        },
+        "migration": {
+          "n": 30,
+          "passed": 28,
+          "pass_rate": 0.9333333333333333,
+          "wilson": [
+            0.7867618227892791,
+            0.9815233646723066
+          ],
+          "mean_score": 0.9942857142857143,
+          "cost_total": 0.138652775,
+          "cost_mean": 0.004621759166666667,
+          "cost_per_pass": 0.004951884821428572,
+          "cli_cost_total": 0.138652775,
+          "wall_median": 17.185,
+          "wall_p25": 16.4125,
+          "wall_p75": 18.044999999999998,
+          "input_tokens_mean": 152301.3,
+          "cache_read_mean": 139974.66666666666,
+          "output_tokens_mean": 3363.1,
+          "turns_mean": 9.933333333333334,
+          "skill_loaded_rate": 0.0,
+          "errors": 0
+        },
+        "release": {
+          "n": 30,
+          "passed": 4,
+          "pass_rate": 0.13333333333333333,
+          "wilson": [
+            0.05309569424218104,
+            0.2968168394441695
+          ],
+          "mean_score": 0.8785714285714286,
+          "cost_total": 0.160024655,
+          "cost_mean": 0.005334155166666667,
+          "cost_per_pass": 0.04000616375,
+          "cli_cost_total": 0.16002465500000002,
+          "wall_median": 21.615000000000002,
+          "wall_p25": 18.762500000000003,
+          "wall_p75": 26.1925,
+          "input_tokens_mean": 168536.86666666667,
+          "cache_read_mean": 155674.1,
+          "output_tokens_mean": 4339.933333333333,
+          "turns_mean": 12.433333333333334,
+          "skill_loaded_rate": 0.0,
+          "errors": 0
+        }
+      },
+      "compact": {
+        "all": {
+          "n": 60,
+          "passed": 56,
+          "pass_rate": 0.9333333333333333,
+          "wilson": [
+            0.8407442010623228,
+            0.973771725856802
+          ],
+          "mean_score": 0.9867063492063493,
+          "cost_total": 0.2005999,
+          "cost_mean": 0.003343331666666667,
+          "cost_per_pass": 0.0035821410714285714,
+          "cli_cost_total": 0.2005999,
+          "wall_median": 11.055,
+          "wall_p25": 9.9375,
+          "wall_p75": 13.1125,
+          "input_tokens_mean": 105498.83333333333,
+          "cache_read_mean": 95860.5,
+          "output_tokens_mean": 2360.4166666666665,
+          "turns_mean": 9.283333333333333,
+          "skill_loaded_rate": 1.0,
+          "errors": 0
+        },
+        "migration": {
+          "n": 30,
+          "passed": 27,
+          "pass_rate": 0.9,
+          "wilson": [
+            0.7437855868473339,
+            0.9654007400402839
+          ],
+          "mean_score": 0.9924603174603175,
+          "cost_total": 0.108634095,
+          "cost_mean": 0.0036211365000000002,
+          "cost_per_pass": 0.004023485,
+          "cli_cost_total": 0.108634095,
+          "wall_median": 13.024999999999999,
+          "wall_p25": 10.5375,
+          "wall_p75": 16.27,
+          "input_tokens_mean": 126857.53333333334,
+          "cache_read_mean": 116960.56666666667,
+          "output_tokens_mean": 2429.4666666666667,
+          "turns_mean": 9.133333333333333,
+          "skill_loaded_rate": 1.0,
+          "errors": 0
+        },
+        "release": {
+          "n": 30,
+          "passed": 29,
+          "pass_rate": 0.9666666666666667,
+          "wilson": [
+            0.8332924860304112,
+            0.9940915620051425
+          ],
+          "mean_score": 0.9809523809523809,
+          "cost_total": 0.091965805,
+          "cost_mean": 0.003065526833333333,
+          "cost_per_pass": 0.003171234655172414,
+          "cli_cost_total": 0.091965805,
+          "wall_median": 10.004999999999999,
+          "wall_p25": 9.58,
+          "wall_p75": 11.39,
+          "input_tokens_mean": 84140.13333333333,
+          "cache_read_mean": 74760.43333333333,
+          "output_tokens_mean": 2291.366666666667,
+          "turns_mean": 9.433333333333334,
+          "skill_loaded_rate": 1.0,
+          "errors": 0
+        }
+      },
+      "comprehensive": {
+        "all": {
+          "n": 60,
+          "passed": 59,
+          "pass_rate": 0.9833333333333333,
+          "wilson": [
+            0.9114466177322051,
+            0.9970519161391262
+          ],
+          "mean_score": 0.9988095238095238,
+          "cost_total": 0.24566765000000002,
+          "cost_mean": 0.004094460833333333,
+          "cost_per_pass": 0.004163858474576272,
+          "cli_cost_total": 0.24566765000000002,
+          "wall_median": 12.094999999999999,
+          "wall_p25": 11.0175,
+          "wall_p75": 14.665000000000001,
+          "input_tokens_mean": 126404.78333333334,
+          "cache_read_mean": 112977.58333333333,
+          "output_tokens_mean": 2573.133333333333,
+          "turns_mean": 9.766666666666667,
+          "skill_loaded_rate": 1.0,
+          "errors": 0
+        },
+        "migration": {
+          "n": 30,
+          "passed": 29,
+          "pass_rate": 0.9666666666666667,
+          "wilson": [
+            0.8332924860304112,
+            0.9940915620051425
+          ],
+          "mean_score": 0.9976190476190476,
+          "cost_total": 0.13437605,
+          "cost_mean": 0.004479201666666667,
+          "cost_per_pass": 0.004633656896551724,
+          "cli_cost_total": 0.13437605,
+          "wall_median": 13.370000000000001,
+          "wall_p25": 11.3275,
+          "wall_p75": 16.982499999999998,
+          "input_tokens_mean": 151546.43333333332,
+          "cache_read_mean": 137091.83333333334,
+          "output_tokens_mean": 2603.5666666666666,
+          "turns_mean": 9.3,
+          "skill_loaded_rate": 1.0,
+          "errors": 0
+        },
+        "release": {
+          "n": 30,
+          "passed": 30,
+          "pass_rate": 1.0,
+          "wilson": [
+            0.8864829086095221,
+            1.0
+          ],
+          "mean_score": 1.0,
+          "cost_total": 0.1112916,
+          "cost_mean": 0.00370972,
+          "cost_per_pass": 0.00370972,
+          "cli_cost_total": 0.1112916,
+          "wall_median": 11.65,
+          "wall_p25": 10.8625,
+          "wall_p75": 12.68,
+          "input_tokens_mean": 101263.13333333333,
+          "cache_read_mean": 88863.33333333333,
+          "output_tokens_mean": 2542.7,
+          "turns_mean": 10.233333333333333,
+          "skill_loaded_rate": 1.0,
+          "errors": 0
+        }
+      },
+      "selfgen": {
+        "all": {
+          "n": 60,
+          "passed": 39,
+          "pass_rate": 0.65,
+          "wilson": [
+            0.5236238380947751,
+            0.7583239827618451
+          ],
+          "mean_score": 0.9234307359307359,
+          "cost_total": 0.30025099,
+          "cost_mean": 0.005004183166666666,
+          "cost_per_pass": 0.007698743333333333,
+          "cli_cost_total": 0.30025099,
+          "wall_median": 19.04,
+          "wall_p25": 16.700000000000003,
+          "wall_p75": 22.229999999999997,
+          "input_tokens_mean": 169211.91666666666,
+          "cache_read_mean": 156069.65,
+          "output_tokens_mean": 3602.1833333333334,
+          "turns_mean": 11.65,
+          "skill_loaded_rate": 1.0,
+          "errors": 0
+        },
+        "migration": {
+          "n": 30,
+          "passed": 22,
+          "pass_rate": 0.7333333333333333,
+          "wilson": [
+            0.5555169795568831,
+            0.8581750444608938
+          ],
+          "mean_score": 0.9778138528138528,
+          "cost_total": 0.139050785,
+          "cost_mean": 0.004635026166666667,
+          "cost_per_pass": 0.006320490227272727,
+          "cli_cost_total": 0.139050785,
+          "wall_median": 16.79,
+          "wall_p25": 15.657499999999999,
+          "wall_p75": 19.0775,
+          "input_tokens_mean": 155419.96666666667,
+          "cache_read_mean": 142601.53333333333,
+          "output_tokens_mean": 3214.133333333333,
+          "turns_mean": 10.3,
+          "skill_loaded_rate": 1.0,
+          "errors": 0
+        },
+        "release": {
+          "n": 30,
+          "passed": 17,
+          "pass_rate": 0.5666666666666667,
+          "wilson": [
+            0.3919700954540873,
+            0.7262276256938489
+          ],
+          "mean_score": 0.8690476190476191,
+          "cost_total": 0.161200205,
+          "cost_mean": 0.0053733401666666665,
+          "cost_per_pass": 0.009482365000000001,
+          "cli_cost_total": 0.16120020499999999,
+          "wall_median": 20.97,
+          "wall_p25": 18.8525,
+          "wall_p75": 25.215,
+          "input_tokens_mean": 183003.86666666667,
+          "cache_read_mean": 169537.76666666666,
+          "output_tokens_mean": 3990.233333333333,
+          "turns_mean": 13,
+          "skill_loaded_rate": 1.0,
+          "errors": 0
+        }
+      }
+    },
+    "claude-sonnet-5-5": {
+      "none": {
+        "all": {
+          "n": 10,
+          "passed": 5,
+          "pass_rate": 0.5,
+          "wilson": [
+            0.23658959361548731,
+            0.7634104063845126
+          ],
+          "mean_score": 0.8357142857142857,
+          "cost_total": 0.4944683,
+          "cost_mean": 0.04944683,
+          "cost_per_pass": 0.09889366000000001,
+          "cli_cost_total": 0.5908971000000001,
+          "wall_median": 13.54,
+          "wall_p25": 11.5725,
+          "wall_p75": 18.2725,
+          "input_tokens_mean": 105787.9,
+          "cache_read_mean": 96428.8,
+          "output_tokens_mean": 1641.2,
+          "turns_mean": 6.2,
+          "skill_loaded_rate": 0.0,
+          "errors": 0
+        },
+        "migration": {
+          "n": 3,
+          "passed": 3,
+          "pass_rate": 1.0,
+          "wilson": [
+            0.43849391955098227,
+            1.0
+          ],
+          "mean_score": 1.0,
+          "cost_total": 0.1277652,
+          "cost_mean": 0.0425884,
+          "cost_per_pass": 0.0425884,
+          "cli_cost_total": 0.15011190000000002,
+          "wall_median": 11.52,
+          "wall_p25": 11.495000000000001,
+          "wall_p75": 11.86,
+          "input_tokens_mean": 83534.66666666667,
+          "cache_read_mean": 74489,
+          "output_tokens_mean": 1253,
+          "turns_mean": 4.666666666666667,
+          "skill_loaded_rate": 0.0,
+          "errors": 0
+        },
+        "release": {
+          "n": 7,
+          "passed": 2,
+          "pass_rate": 0.2857142857142857,
+          "wilson": [
+            0.0822171657090155,
+            0.6410709098517873
+          ],
+          "mean_score": 0.7653061224489796,
+          "cost_total": 0.3667031,
+          "cost_mean": 0.052386157142857145,
+          "cost_per_pass": 0.18335155,
+          "cli_cost_total": 0.44078520000000004,
+          "wall_median": 14.92,
+          "wall_p25": 13.305,
+          "wall_p75": 19.8,
+          "input_tokens_mean": 115325,
+          "cache_read_mean": 105831.57142857143,
+          "output_tokens_mean": 1807.5714285714287,
+          "turns_mean": 6.857142857142857,
+          "skill_loaded_rate": 0.0,
+          "errors": 0
+        }
+      },
+      "compact": {
+        "all": {
+          "n": 6,
+          "passed": 6,
+          "pass_rate": 1.0,
+          "wilson": [
+            0.6096569663469354,
+            0.9999999999999999
+          ],
+          "mean_score": 1.0,
+          "cost_total": 0.22232870000000002,
+          "cost_mean": 0.037054783333333334,
+          "cost_per_pass": 0.037054783333333334,
+          "cli_cost_total": 0.2594789,
+          "wall_median": 9.3,
+          "wall_p25": 8.8575,
+          "wall_p75": 9.66,
+          "input_tokens_mean": 70147.83333333333,
+          "cache_read_mean": 61917,
+          "output_tokens_mean": 1029,
+          "turns_mean": 5,
+          "skill_loaded_rate": 1.0,
+          "errors": 0
+        },
+        "migration": {
+          "n": 1,
+          "passed": 1,
+          "pass_rate": 1.0,
+          "wilson": [
+            0.20654329147389294,
+            1.0
+          ],
+          "mean_score": 1.0,
+          "cost_total": 0.036993,
+          "cost_mean": 0.036993,
+          "cost_per_pass": 0.036993,
+          "cli_cost_total": 0.043175000000000005,
+          "wall_median": 10.48,
+          "wall_p25": 10.48,
+          "wall_p75": 10.48,
+          "input_tokens_mean": 69626,
+          "cache_read_mean": 61820,
+          "output_tokens_mean": 1130,
+          "turns_mean": 5,
+          "skill_loaded_rate": 1.0,
+          "errors": 0
+        },
+        "release": {
+          "n": 5,
+          "passed": 5,
+          "pass_rate": 1.0,
+          "wilson": [
+            0.5655085052479191,
+            1.0
+          ],
+          "mean_score": 1.0,
+          "cost_total": 0.18533570000000002,
+          "cost_mean": 0.037067140000000005,
+          "cost_per_pass": 0.037067140000000005,
+          "cli_cost_total": 0.2163039,
+          "wall_median": 8.97,
+          "wall_p25": 8.82,
+          "wall_p75": 9.63,
+          "input_tokens_mean": 70252.2,
+          "cache_read_mean": 61936.4,
+          "output_tokens_mean": 1008.8,
+          "turns_mean": 5,
+          "skill_loaded_rate": 1.0,
+          "errors": 0
+        }
+      },
+      "comprehensive": {
+        "all": {
+          "n": 8,
+          "passed": 8,
+          "pass_rate": 1.0,
+          "wilson": [
+            0.6755843804891231,
+            1.0
+          ],
+          "mean_score": 1.0,
+          "cost_total": 0.3606607,
+          "cost_mean": 0.0450825875,
+          "cost_per_pass": 0.0450825875,
+          "cli_cost_total": 0.4147984,
+          "wall_median": 10.055,
+          "wall_p25": 9.86,
+          "wall_p75": 10.6825,
+          "input_tokens_mean": 78479.875,
+          "cache_read_mean": 67672.125,
+          "output_tokens_mean": 1130,
+          "turns_mean": 5.125,
+          "skill_loaded_rate": 1.0,
+          "errors": 0
+        },
+        "migration": {
+          "n": 2,
+          "passed": 2,
+          "pass_rate": 1.0,
+          "wilson": [
+            0.34237195288961925,
+            1.0
+          ],
+          "mean_score": 1.0,
+          "cost_total": 0.0933774,
+          "cost_mean": 0.0466887,
+          "cost_per_pass": 0.0466887,
+          "cli_cost_total": 0.1073428,
+          "wall_median": 10.239999999999998,
+          "wall_p25": 10.049999999999999,
+          "wall_p75": 10.43,
+          "input_tokens_mean": 81237,
+          "cache_read_mean": 69827,
+          "output_tokens_mean": 1118.5,
+          "turns_mean": 5,
+          "skill_loaded_rate": 1.0,
+          "errors": 0
+        },
+        "release": {
+          "n": 6,
+          "passed": 6,
+          "pass_rate": 1.0,
+          "wilson": [
+            0.6096569663469354,
+            0.9999999999999999
+          ],
+          "mean_score": 1.0,
+          "cost_total": 0.2672833,
+          "cost_mean": 0.04454721666666667,
+          "cost_per_pass": 0.04454721666666667,
+          "cli_cost_total": 0.3074556,
+          "wall_median": 10.055,
+          "wall_p25": 9.897499999999999,
+          "wall_p75": 10.677499999999998,
+          "input_tokens_mean": 77560.83333333333,
+          "cache_read_mean": 66953.83333333333,
+          "output_tokens_mean": 1133.8333333333333,
+          "turns_mean": 5.166666666666667,
+          "skill_loaded_rate": 1.0,
+          "errors": 0
+        }
+      },
+      "selfgen": {
+        "all": {
+          "n": 11,
+          "passed": 8,
+          "pass_rate": 0.7272727272727273,
+          "wilson": [
+            0.4343497069897537,
+            0.9025411942607853
+          ],
+          "mean_score": 0.908008658008658,
+          "cost_total": 0.530369,
+          "cost_mean": 0.04821536363636363,
+          "cost_per_pass": 0.066296125,
+          "cli_cost_total": 0.625185,
+          "wall_median": 13.96,
+          "wall_p25": 13.18,
+          "wall_p75": 16.869999999999997,
+          "input_tokens_mean": 95789.81818181818,
+          "cache_read_mean": 86196.36363636363,
+          "output_tokens_mean": 1561.7272727272727,
+          "turns_mean": 6.181818181818182,
+          "skill_loaded_rate": 1.0,
+          "errors": 0
+        },
+        "migration": {
+          "n": 6,
+          "passed": 5,
+          "pass_rate": 0.8333333333333334,
+          "wilson": [
+            0.43649056343635395,
+            0.9699474141282697
+          ],
+          "mean_score": 0.9861111111111112,
+          "cost_total": 0.2915422,
+          "cost_mean": 0.04859036666666667,
+          "cost_per_pass": 0.058308439999999996,
+          "cli_cost_total": 0.3428879,
+          "wall_median": 15.125,
+          "wall_p25": 13.465,
+          "wall_p75": 16.5975,
+          "input_tokens_mean": 95110.66666666667,
+          "cache_read_mean": 85576.16666666667,
+          "output_tokens_mean": 1620.1666666666667,
+          "turns_mean": 6.166666666666667,
+          "skill_loaded_rate": 1.0,
+          "errors": 0
+        },
+        "release": {
+          "n": 5,
+          "passed": 3,
+          "pass_rate": 0.6,
+          "wilson": [
+            0.23071993220883708,
+            0.8823817688407467
+          ],
+          "mean_score": 0.8142857142857143,
+          "cost_total": 0.2388268,
+          "cost_mean": 0.04776536,
+          "cost_per_pass": 0.07960893333333334,
+          "cli_cost_total": 0.28229709999999997,
+          "wall_median": 13.95,
+          "wall_p25": 13.06,
+          "wall_p75": 17.04,
+          "input_tokens_mean": 96604.8,
+          "cache_read_mean": 86940.6,
+          "output_tokens_mean": 1491.6,
+          "turns_mean": 6.2,
+          "skill_loaded_rate": 1.0,
+          "errors": 0
+        }
+      }
+    }
+  },
+  "spend": {
+    "published_price_total": 23.173158,
+    "by_phase": {
+      "smoke": 0.119621,
+      "pilot": 0.057585000000000004,
+      "selfgen": 0.33714299999999997,
+      "main": 21.462095000000005,
+      "trigger": 1.1967139999999996
+    },
+    "estimates_for_killed_runs": 0.36,
+    "cli_reported_total": 22.69315945
+  }
+}

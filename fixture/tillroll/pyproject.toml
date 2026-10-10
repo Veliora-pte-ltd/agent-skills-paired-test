@@ -1,0 +1,13 @@
+[project]
+name = "tillroll"
+version = "1.4.2"
+description = "Order and customer service for a small retail back office."
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

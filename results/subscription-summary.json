@@ -1,0 +1,563 @@
+{
+ "subscription": {
+  "claude-opus-5-5": {
+   "conditions": {
+    "none": {
+     "n": 24,
+     "passed": 6,
+     "pass_rate": 0.25,
+     "wilson": [
+      0.1199920347934233,
+      0.4489982531210644
+     ],
+     "cost_mean": 0.175081975,
+     "cost_total": 4.2019674,
+     "cost_per_pass": 0.7003279,
+     "wall_median": 22.35,
+     "turns_mean": 6.25,
+     "output_tokens_mean": 2083.7083333333335,
+     "skill_loaded_rate": 0.0,
+     "failed_checks": {
+      "no_git_tag_created": 14,
+      "changelog_section_order": 4
+     }
+    },
+    "compact": {
+     "n": 24,
+     "passed": 24,
+     "pass_rate": 1.0,
+     "wilson": [
+      0.8620194241710247,
+      1.0
+     ],
+     "cost_mean": 0.13114323333333333,
+     "cost_total": 3.1474376,
+     "cost_per_pass": 0.13114323333333333,
+     "wall_median": 12.665,
+     "turns_mean": 5.291666666666667,
+     "output_tokens_mean": 1234.125,
+     "skill_loaded_rate": 1.0,
+     "failed_checks": {}
+    }
+   },
+   "paired_compact": {
+    "diff": 0.75,
+    "ci": [
+     0.4166666666666667,
+     1.0
+    ],
+    "p_perm": 0.0601,
+    "tasks": 6,
+    "tasks_better": 5,
+    "tasks_worse": 0
+   },
+   "per_task": {
+    "rel-01-patch": {
+     "compact": [
+      4,
+      4
+     ],
+     "none": [
+      0,
+      4
+     ]
+    },
+    "rel-02-minor": {
+     "compact": [
+      4,
+      4
+     ],
+     "none": [
+      4,
+      4
+     ]
+    },
+    "rel-03-major": {
+     "compact": [
+      4,
+      4
+     ],
+     "none": [
+      2,
+      4
+     ]
+    },
+    "rel-04-changed": {
+     "compact": [
+      4,
+      4
+     ],
+     "none": [
+      0,
+      4
+     ]
+    },
+    "rel-05-rc": {
+     "compact": [
+      4,
+      4
+     ],
+     "none": [
+      0,
+      4
+     ]
+    },
+    "rel-06-security": {
+     "compact": [
+      4,
+      4
+     ],
+     "none": [
+      0,
+      4
+     ]
+    }
+   },
+   "overage_runs": 0,
+   "api_key_sources": {
+    "none": 48
+   },
+   "cost_estimate_total": 7.349405,
+   "wall_total_s": 903.14
+  }
+ },
+ "main_release": {
+  "claude-haiku-5-5": {
+   "conditions": {
+    "none": {
+     "n": 30,
+     "passed": 5,
+     "pass_rate": 0.16666666666666666,
+     "wilson": [
+      0.07336434240351683,
+      0.33564705185680177
+     ],
+     "cost_mean": 0.005092839,
+     "cost_total": 0.15278517,
+     "cost_per_pass": 0.030557034,
+     "wall_median": 20.795,
+     "turns_mean": 12.1,
+     "output_tokens_mean": 4083.4,
+     "skill_loaded_rate": 0.0,
+     "failed_checks": {
+      "no_git_tag_created": 15,
+      "changelog_entries_moved": 5,
+      "changelog_section_order": 5,
+      "version_init": 2,
+      "version_pyproject": 1,
+      "changelog_release_heading": 1,
+      "changelog_links": 1,
+      "release_file_exists": 1,
+      "release_file_core_fields": 1,
+      "release_file_bump": 1,
+      "release_file_migrations": 1
+     }
+    },
+    "compact": {
+     "n": 30,
+     "passed": 29,
+     "pass_rate": 0.9666666666666667,
+     "wilson": [
+      0.8332924860304112,
+      0.9940915620051425
+     ],
+     "cost_mean": 0.0030434066666666666,
+     "cost_total": 0.0913022,
+     "cost_per_pass": 0.0031483517241379312,
+     "wall_median": 10.185,
+     "turns_mean": 9.533333333333333,
+     "output_tokens_mean": 2305.133333333333,
+     "skill_loaded_rate": 1.0,
+     "failed_checks": {
+      "changelog_section_order": 1
+     }
+    }
+   },
+   "per_task": {
+    "rel-01-patch": {
+     "compact": [
+      5,
+      5
+     ],
+     "comprehensive": [
+      5,
+      5
+     ],
+     "none": [
+      0,
+      5
+     ],
+     "selfgen": [
+      0,
+      5
+     ]
+    },
+    "rel-02-minor": {
+     "compact": [
+      5,
+      5
+     ],
+     "comprehensive": [
+      5,
+      5
+     ],
+     "none": [
+      5,
+      5
+     ],
+     "selfgen": [
+      0,
+      5
+     ]
+    },
+    "rel-03-major": {
+     "compact": [
+      5,
+      5
+     ],
+     "comprehensive": [
+      5,
+      5
+     ],
+     "none": [
+      0,
+      5
+     ],
+     "selfgen": [
+      0,
+      5
+     ]
+    },
+    "rel-04-changed": {
+     "compact": [
+      5,
+      5
+     ],
+     "comprehensive": [
+      5,
+      5
+     ],
+     "none": [
+      0,
+      5
+     ],
+     "selfgen": [
+      0,
+      5
+     ]
+    },
+    "rel-05-rc": {
+     "compact": [
+      5,
+      5
+     ],
+     "comprehensive": [
+      5,
+      5
+     ],
+     "none": [
+      0,
+      5
+     ],
+     "selfgen": [
+      0,
+      5
+     ]
+    },
+    "rel-06-security": {
+     "compact": [
+      4,
+      5
+     ],
+     "comprehensive": [
+      5,
+      5
+     ],
+     "none": [
+      0,
+      5
+     ],
+     "selfgen": [
+      0,
+      5
+     ]
+    }
+   }
+  },
+  "claude-opus-5-5": {
+   "conditions": {
+    "none": {
+     "n": 11,
+     "passed": 3,
+     "pass_rate": 0.2727272727272727,
+     "wilson": [
+      0.09745880573921467,
+      0.5656502930102463
+     ],
+     "cost_mean": 0.11180261818181818,
+     "cost_total": 1.2298288,
+     "cost_per_pass": 0.4099429333333333,
+     "wall_median": 34.54,
+     "turns_mean": 5.636363636363637,
+     "output_tokens_mean": 1956,
+     "skill_loaded_rate": 0.0,
+     "failed_checks": {
+      "no_git_tag_created": 5,
+      "changelog_section_order": 2,
+      "changelog_entries_moved": 1
+     }
+    },
+    "compact": {
+     "n": 12,
+     "passed": 12,
+     "pass_rate": 1.0,
+     "wilson": [
+      0.7574992425007574,
+      1.0
+     ],
+     "cost_mean": 0.07954396666666667,
+     "cost_total": 0.9545276,
+     "cost_per_pass": 0.07954396666666667,
+     "wall_median": 21.455,
+     "turns_mean": 5.166666666666667,
+     "output_tokens_mean": 1163,
+     "skill_loaded_rate": 1.0,
+     "failed_checks": {}
+    }
+   },
+   "per_task": {
+    "rel-01-patch": {
+     "compact": [
+      2,
+      2
+     ],
+     "none": [
+      0,
+      2
+     ]
+    },
+    "rel-02-minor": {
+     "compact": [
+      2,
+      2
+     ],
+     "none": [
+      2,
+      2
+     ]
+    },
+    "rel-03-major": {
+     "compact": [
+      2,
+      2
+     ],
+     "none": [
+      1,
+      2
+     ]
+    },
+    "rel-04-changed": {
+     "compact": [
+      2,
+      2
+     ],
+     "none": [
+      0,
+      1
+     ]
+    },
+    "rel-05-rc": {
+     "compact": [
+      2,
+      2
+     ],
+     "none": [
+      0,
+      2
+     ]
+    },
+    "rel-06-security": {
+     "compact": [
+      2,
+      2
+     ],
+     "none": [
+      0,
+      2
+     ]
+    }
+   }
+  },
+  "claude-sonnet-5-5": {
+   "conditions": {
+    "none": {
+     "n": 30,
+     "passed": 10,
+     "pass_rate": 0.3333333333333333,
+     "wilson": [
+      0.19230295526846194,
+      0.5122027418616973
+     ],
+     "cost_mean": 0.04314962666666667,
+     "cost_total": 1.2944888,
+     "cost_per_pass": 0.12944888000000002,
+     "wall_median": 14.615,
+     "turns_mean": 5.6,
+     "output_tokens_mean": 1408.6,
+     "skill_loaded_rate": 0.0,
+     "failed_checks": {
+      "no_git_tag_created": 15,
+      "changelog_section_order": 6,
+      "changelog_release_heading": 3,
+      "changelog_links": 3,
+      "release_file_exists": 2,
+      "release_file_core_fields": 2,
+      "release_file_bump": 2,
+      "release_file_migrations": 2,
+      "changelog_unreleased_empty_on_top": 1,
+      "changelog_entries_moved": 1,
+      "changelog_history_untouched": 1
+     }
+    },
+    "compact": {
+     "n": 30,
+     "passed": 30,
+     "pass_rate": 1.0,
+     "wilson": [
+      0.8864829086095221,
+      1.0
+     ],
+     "cost_mean": 0.03652939333333333,
+     "cost_total": 1.0958818,
+     "cost_per_pass": 0.03652939333333333,
+     "wall_median": 9.995000000000001,
+     "turns_mean": 5.033333333333333,
+     "output_tokens_mean": 997.7333333333333,
+     "skill_loaded_rate": 1.0,
+     "failed_checks": {}
+    }
+   },
+   "per_task": {
+    "rel-01-patch": {
+     "compact": [
+      5,
+      5
+     ],
+     "comprehensive": [
+      5,
+      5
+     ],
+     "none": [
+      0,
+      5
+     ],
+     "selfgen": [
+      0,
+      5
+     ]
+    },
+    "rel-02-minor": {
+     "compact": [
+      5,
+      5
+     ],
+     "comprehensive": [
+      5,
+      5
+     ],
+     "none": [
+      5,
+      5
+     ],
+     "selfgen": [
+      0,
+      5
+     ]
+    },
+    "rel-03-major": {
+     "compact": [
+      5,
+      5
+     ],
+     "comprehensive": [
+      5,
+      5
+     ],
+     "none": [
+      5,
+      5
+     ],
+     "selfgen": [
+      0,
+      5
+     ]
+    },
+    "rel-04-changed": {
+     "compact": [
+      5,
+      5
+     ],
+     "comprehensive": [
+      5,
+      5
+     ],
+     "none": [
+      0,
+      5
+     ],
+     "selfgen": [
+      0,
+      5
+     ]
+    },
+    "rel-05-rc": {
+     "compact": [
+      5,
+      5
+     ],
+     "comprehensive": [
+      5,
+      5
+     ],
+     "none": [
+      0,
+      5
+     ],
+     "selfgen": [
+      0,
+      5
+     ]
+    },
+    "rel-06-security": {
+     "compact": [
+      5,
+      5
+     ],
+     "comprehensive": [
+      5,
+      5
+     ],
+     "none": [
+      0,
+      5
+     ],
+     "selfgen": [
+      0,
+      5
+     ]
+    }
+   }
+  }
+ },
+ "aborted": [
+  {
+   "task": "rel-03-major",
+   "condition": "none",
+   "model": "claude-fable-5-1",
+   "rep": 0,
+   "aborted": "limit",
+   "final_text": "You're out of usage credits. Switch to another model, or manage usage credits at https://claude.ai/settings/usage?from=cc_cli_limit_message, to continue."
+  }
+ ],
+ "events": []
+}

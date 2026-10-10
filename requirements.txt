@@ -1,0 +1,5 @@
+# analysis and charts (the runner itself uses only the standard library)
+matplotlib==3.11.2
+numpy==2.5.3
+# the agent runs the fixture's tests; put this venv's bin on its PATH with AGENT_VENV_BIN
+pytest==9.1.1

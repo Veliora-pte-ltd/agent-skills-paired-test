@@ -1,0 +1,7 @@
+version = "1.4.1"
+date = "2026-08-27"
+bump = "patch"
+previous = "1.4.0"
+prerelease = false
+migrations = []
+last_migration = "0004"
