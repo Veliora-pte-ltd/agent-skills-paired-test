@@ -354,6 +354,7 @@ CONTEXT = [
     ("set-up", "claude-sonnet-5-5"), ("set-up", "claude-haiku-5-5"),
     ("task ids", "mig-0"), ("task ids", "rel-0"),
     ("dates", "8 October 2026"),
+    ("dates", "10 October 2026: added a link to the code and data on GitHub"),  # changelog line, once the repo link is live
     ("the SKILL.md template's numbered steps (template/SKILL.md)", "## Fast path 1. <The first concrete step"),
     ("the SKILL.md template's numbered steps (template/SKILL.md)", "2. <The next step"),
     ("the SKILL.md template's numbered steps (template/SKILL.md)", "3. <How to check the result"),
